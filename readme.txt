@@ -1,3 +1,14 @@
+Lists exports of given DLL as FASM include file.
+Some variation of this tool was usefull back in the day, so I decided to resurrect it here.
+
+Initial version was "Coded by comrade" back in 2003.
+I made a few improvements to make it usable.
+
+Output is stored at the same path as the original file.
+   So ensure that library is at a place where you have write permissions.
+Output file is named as the original but with .inc extension instead of .dll.
+   e.g. C:\path\library32.dll -> C:\path\library32.inc
+
 ==========================================================
 dll2inc                                     March 10, 2004
 Version 1.1                                      21:16 EST
